@@ -1,4 +1,4 @@
-my shell(main.c) can handle 2 internal commands  and 4 external comands(using fork(),execl(),wait()).
+This is the shell (main.c) that can handle 2 internal commands and 4 external comands(using fork(),execl(),wait()).
 
 2 commands:-
 ->echo , echo -n typeanything 
@@ -36,5 +36,5 @@ Test cases:-
 
 
 Assumptions:-
-	i assumed that only one arguments are being provided to the above listed commands like
+	Assumed that only one arguments are being provided to the above listed commands example
 	(rm a.txt and not rm a.txt b.txt).
